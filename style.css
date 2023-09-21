@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0 ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .kutu{
+    display:flex;
+    justify-content: start;
+    align-items: start;
+    height: 600px;
+    width: 600px;
+    background-color: rgb(199, 236, 231);
+    border-radius: 10px;
+}
+
+.sol{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 2em 3em;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.kutu1{
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    color:rgb(11, 130, 241);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cizgi1{
+    width: 1px; 
+    height: 60px;  
+    margin: 0 38px; 
+    border-left: 1px dashed black;
+}
+
+.kutu2{
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    color:rgb(11, 130, 241);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cizgi2{
+    width: 1px; 
+    height: 60px;  
+    margin: 0 38px; 
+    border-left: 1px dashed black;
+}
+
+.kutu3{
+    width: 80px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    color:rgb(11, 130, 241);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genel1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.genel2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.genel3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baslik1{
+    display:flex;
+    flex-direction: row;
+}
+
+.tur-programi {
+    text-align: right; 
+    margin-right: 20px; 
+}
+
+.kutu1,
+.kutu2,
+.kutu3 {
+    text-align: right; 
+    margin-right: 20px;
+}
+
+.baslik1,
+.baslik2,
+.baslik3 {
+    text-align: left;
+}
+
+.cizgi1,
+.cizgi2 {
+    margin-right: 0;
+}
